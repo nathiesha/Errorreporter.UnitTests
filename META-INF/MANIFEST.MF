@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: org.wso2.developerstudio.eclipse.errorreporter.UnitTests
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.wso2.developerstudio.eclipse.errorreporter.test.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.wso2.developerstudio.eclipse.errorreporter;bundle-version="1.0.0",
+ org.junit;bundle-version="4.12.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
